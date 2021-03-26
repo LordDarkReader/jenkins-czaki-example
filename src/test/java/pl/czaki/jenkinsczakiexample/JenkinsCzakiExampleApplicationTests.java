@@ -23,7 +23,7 @@ class JenkinsCzakiExampleApplicationTests {
         mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Yo yoyoyoy"));
+                .andExpect(content().string("Heja, robalu"));
     }
 
 }
